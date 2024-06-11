@@ -15,3 +15,4 @@ tables
 
 User: User_ID int PK, Username Varchar(25),Email varchar(25), Password varchar(25)
 Token: id varchar(max) pk, mintSymbol varchar(10), vsToken varchar(max), price decimal
+Watchlist: Watchlist_ID int PK, Username User_ID FK, id, mintSymbol, price Token_ID FK
